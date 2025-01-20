@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Navbar*/
+.wrap-icon, .horizontal-line{
+  display: none;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: none;
+  margin-bottom: 30px;
+  width: 90%;
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 60px;
+
+}
+.logo img{
+  width: 100%;
+}
+.logo h2{
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.nav-link ul{
+  display: flex;
+  list-style-type: none;
+  gap: 80px;
+}
+
+.nav-link ul a{
+  text-decoration: none;
+}
+.nav-link{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.nav-link-1{
+  color: rgb(210, 148, 40);
+
+}
+.nav-link-2 {
+  color: rgb(42, 158, 211);
+}
+
+.nav-link-3{
+  color: rgb(76, 225, 34);
+}
+
+.nav-link-4{
+  color: rgb(216, 18, 114);
+}
+
+.connect-btn button{
+border-radius: 12px;
+background: rgb(254, 163, 1);
+padding: 10px 50px ;
+color: rgb(255, 255, 255);
+font-size: 1.25rem;
+font-weight: 600;
+line-height: 1.8rem;
+border: none;
+}
+
+/*Banner Section*/
+.banner{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.banner-text{
+max-width: 640px;
+
+}
+.banner-text h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  letter-spacing: 0%;
+  padding-right: 70px;
+}
+.banner-text .empower{
+  color: rgb(254, 163, 1);
+}
+.banner-text .vishion{
+color: rgb(1, 172, 253);
+}
+
+.banner-text p{
+color: rgb(17, 17, 17);
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.5rem;
+margin-top: 24px;
+}
+
+.banner-text button{
+border-radius: 12px;
+padding: 10px 50px ;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 1.8rem;
+background: #000;
+margin-block: 24px;
+}
+.banner-image img{
+width: 100%;
+}
+
+
+
+
+
+
+
+
+/*For small device*/
+@media screen and (max-width:576px) {
+  .nav-link{
+    display: none;
+  }
+  .wrap-icon, .horizontal-line{
+    display: block;
+  }
+  .connect-btn{
+    display: none;
+  }
+  .logo h2{
+    display: none;
+  }
+  .nav{
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    padding: 30px;
+  }
+  .wrap-icon{
+    font-size: 40px;
+  }
+  hr.horizontal-line{
+    border: 1px solid  rgb(254, 163, 1);
+}
+.logo{
+  padding: 0;
+}
+
+.banner{
+  flex-direction: column;
+}
+.banner-text h1, p{
+  padding: 0;
+}
+.banner-text{
+  text-align: center;
+}
+}
