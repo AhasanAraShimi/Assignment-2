@@ -136,10 +136,123 @@ margin-block: 24px;
 width: 100%;
 }
 
+.standard-curriculum{
+  width: 80%;
+  margin: auto;
+ background-image: url(assets/bg.png);
+ background-size: contain;
+ background-repeat: repeat;
+ 
+}
+
+.standard-curriculum h2{
+color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 2.88rem;
+font-weight: 700;
+line-height: 3.6rem;
+text-align: center;
+margin-bottom: 80px;
+}
+
+.card-container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+text-align: center;
+padding: 10px;
+margin-bottom: 80px;
+}
 
 
+.card h4{
+  color: rgb(32, 32, 32);
+  font-size: 24.52px;
+  font-weight: 700;
+  line-height: 30.65px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
 
+}
+.card img{
+  width: 130px;
+  margin-block: 40px;
+}
+.card p{
+  color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+}
 
+.card h5{
+  color: rgb(100, 200, 255);
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  line-height: 28.3px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-block: 50px;
+}
+
+.card-1{
+box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card-2{
+  box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-2 h5{
+  color: rgb(240, 170, 0);
+}
+
+.card-3{
+  box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card-3 h5{
+  color: rgb(135, 0, 255);
+}
+
+.arrows{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.arrows div{
+  height: 60px;
+  width: 60px;
+  background-color: rgb(240, 170, 0);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
 
 
 
@@ -174,7 +287,7 @@ width: 100%;
 }
 
 .banner{
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 .banner-text h1, p{
   padding: 0;
@@ -182,4 +295,33 @@ width: 100%;
 .banner-text{
   text-align: center;
 }
+
+.card-container{
+  grid-template-columns: repeat(1, 1fr);
+
+  }
+.card{
+  margin: 10px;
+  padding: 20px;
+}
+
+.arrows{
+  display: none;
+}
+
+.card img{
+  margin-block: 30px;
+}
+
+.standard-curriculum{
+  width: 90%;
+}
+
+.card h2{
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+}
+
 }
