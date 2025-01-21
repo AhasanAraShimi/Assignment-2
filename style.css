@@ -179,7 +179,7 @@ margin: auto;
 
 }
 .card img{
-  width: 130px;
+  max-width: 100%;
   margin-block: 40px;
 }
 .card p{
@@ -425,7 +425,89 @@ line-height: 30px;
 footer{
   width: 100%;
   background: rgb(1, 172, 253);
+  padding-block:120px;
+  padding-inline:80px ;
 }
+
+.footer{
+   display: grid;
+   grid-template-columns: 4fr 2fr 2fr;
+}
+
+.footer-logo-part{
+  display: flex;
+  gap: 20px;
+}
+.footer-logo-part img{
+  background-color: white;
+  width: 82.9px;
+  height: 85.65px;
+}
+
+.footer-logo-part h1{
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 42.14px;
+  font-weight: 700;
+  line-height: 39.51px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-logo p{
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-block: 30px;
+padding-right: 300px;
+}
+
+.about-school ul {
+  list-style: none;
+}
+.about-school ul li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+.about-school ul li{
+  margin-bottom: 30px;
+}
+.about-school ul li a{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.about-school ul li h4{
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+}
+
+.social-media h4{
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 30px; 
+}
+
+
+
+
+
 
 /*For small device*/
 @media screen and (max-width:576px) {
@@ -469,12 +551,11 @@ footer{
 
 .card-container{
   grid-template-columns: repeat(1, 1fr);
-
-
+  width: 100%;
   }
 .card{
-  margin: 5px;
-  padding: 10px;
+  margin: 15px;
+  padding: 5px;
 }
 
 .arrows{
@@ -486,7 +567,7 @@ footer{
 }
 
 .standard-curriculum{
-  width: 90%;
+  width: 100%;
 }
 .story-3, .story-4{
   display: block;
@@ -495,11 +576,10 @@ footer{
   display: none;
 }
 .story-container{
-  width: 99%;
+  width: 100%;
   grid-template-columns: repeat(1, 1fr);
   
 }
-
 .story-group-2{
   margin: 10px;
 }
@@ -521,4 +601,15 @@ footer{
     margin-top:-30px ;
     }
 
+    .footer{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 50px;
+   }
+   
+   .footer-logo p{
+    margin-block: 20px;
+    padding: 0;
+   
+    }
 }
