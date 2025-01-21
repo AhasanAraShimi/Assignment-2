@@ -271,10 +271,9 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .our-tory h1{
   color: rgb(0, 0, 0);
 font-family: Quicksand;
-font-size: 46px;
+font-size: 2.88rem;
 font-weight: 700;
 line-height: 57.5px;
-letter-spacing: 0%;
 text-align: center;
 margin-bottom: 60px;
 }
@@ -332,7 +331,7 @@ background:rgb(217, 217, 217);
 .story-group-1-text h4{
   color: rgb(0, 0, 0);
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.6rem;
   font-weight: 700;
   line-height: 38.35px;
   margin-bottom: 20px;
@@ -342,7 +341,7 @@ background:rgb(217, 217, 217);
 .story-group-1-text p{
 color: rgb(102, 102, 102);
 font-family: Raleway;
-font-size: 15.34px;
+font-size: 1rem;
 font-weight: 500;
 line-height: 28.76px;
 margin-bottom: 30px;
@@ -372,7 +371,7 @@ padding: 10px 35px;
 border: none;
 color: rgb(255, 255, 255);
 font-family: Raleway;
-font-size: 14px;
+font-size: .85rem;
 line-height: 28.76px;
 margin-left: 30px;
 position: absolute;
@@ -383,7 +382,7 @@ z-index: 5;
 .story-group-2 .story h4{
 color: rgb(0, 0, 0);
 font-family: Quicksand;
-font-size: 15.34px;
+font-size: 1rem;
 font-weight: 700;
 line-height: 28.76px;
 letter-spacing: 0%;
@@ -408,14 +407,14 @@ background: rgb(17, 17, 17);
 padding: 20px 70px;
 color: rgb(255, 255, 255);
 font-family: Quicksand;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 700;
 line-height: 30px;
 }
 
 .maequee{
   width: 100%;
-  font-size: 50px;
+  font-size: 3.1rem;
   margin-top: 50px;
   font-weight: 700;
   color:#FD6E0A;
@@ -447,7 +446,7 @@ footer{
 .footer-logo-part h1{
   color: rgb(255, 255, 255);
   font-family: Quicksand;
-  font-size: 42.14px;
+  font-size: 2.7rem;
   font-weight: 700;
   line-height: 39.51px;
   letter-spacing: 0%;
@@ -459,7 +458,7 @@ color: rgb(255, 255, 255);
 font-family: Quicksand;
 font-size: 20px;
 font-weight: 400;
-line-height: 25px;
+line-height: 1.25rem;
 letter-spacing: 0%;
 text-align: left;
 margin-block: 30px;
@@ -480,17 +479,15 @@ color: rgb(255, 255, 255);
 .about-school ul li a{
   color: rgb(255, 255, 255);
 font-family: Quicksand;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 500;
 line-height: 25px;
-letter-spacing: 0%;
-text-align: left;
 
 }
 .about-school ul li h4{
 color: rgb(255, 255, 255);
 font-family: Quicksand;
-font-size: 24px;
+font-size:1.5rem;
 font-weight: 700;
 line-height: 30px;
 }
@@ -498,7 +495,7 @@ line-height: 30px;
 .social-media h4{
   color: rgb(255, 255, 255);
   font-family: Quicksand;
-  font-size: 26px;
+  font-size: 1.6rem;
   font-weight: 700;
   line-height: 26px;
   margin-bottom: 30px; 
@@ -595,9 +592,8 @@ line-height: 30px;
     padding: 8px 19px;
     border: none;
     font-family: Raleway;
-    font-size: 13px;
+    font-size: .8rem;
     margin-left: 30px;
-    position: absolute;
     margin-top:-30px ;
     }
 
