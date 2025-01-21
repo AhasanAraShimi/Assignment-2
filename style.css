@@ -548,7 +548,7 @@ line-height: 30px;
 
 .card-container{
   grid-template-columns: repeat(1, 1fr);
-  width: 100%;
+  width: 95%;
   }
 .card{
   margin: 15px;
@@ -564,7 +564,7 @@ line-height: 30px;
 }
 
 .standard-curriculum{
-  width: 100%;
+  width: 95%;
 }
 .story-3, .story-4{
   display: block;
@@ -573,18 +573,17 @@ line-height: 30px;
   display: none;
 }
 .story-container{
-  width: 100%;
+  width: 95%;
   grid-template-columns: repeat(1, 1fr);
   
 }
 .story-group-2{
-  margin: 10px;
+  margin: 5px;
 }
 .story-group-2 .story h4{
   padding-top: 30px;
   padding-bottom: 28px;
-  padding-left: 30px;
-  padding-right: 10px;
+  padding-inline: 5px;
   }
   
   .story-group-2 button{
@@ -593,7 +592,7 @@ line-height: 30px;
     border: none;
     font-family: Raleway;
     font-size: .8rem;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top:-30px ;
     }
 
@@ -608,4 +607,7 @@ line-height: 30px;
     padding: 0;
    
     }
+  footer{
+    padding-inline:30px ;
+  }
 }
