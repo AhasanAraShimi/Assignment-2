@@ -372,7 +372,7 @@ padding: 10px 35px;
 border: none;
 color: rgb(255, 255, 255);
 font-family: Raleway;
-font-size: 12px;
+font-size: 14px;
 line-height: 28.76px;
 margin-left: 30px;
 position: absolute;
@@ -509,5 +509,16 @@ footer{
   padding-left: 30px;
   padding-right: 10px;
   }
+  
+  .story-group-2 button{
+    border-radius: 30px;
+    padding: 8px 19px;
+    border: none;
+    font-family: Raleway;
+    font-size: 13px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top:-30px ;
+    }
 
 }
